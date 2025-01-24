@@ -52,7 +52,7 @@ function checkAns(idx){
         document.querySelector("body").style.backgroundColor = "red";
         setTimeout(function(){
         document.querySelector("body").style.backgroundColor = "white";
-        });
+        }, 500);
         reset();
     }
 }
